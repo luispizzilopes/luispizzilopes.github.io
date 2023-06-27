@@ -78,6 +78,11 @@ h3{
 
 .desenvolvedor{
     font-size: 12px;
+    cursor: pointer;
+}
+
+.desenvolvedor:hover{
+    font-style:italic; 
 }
 
 @media(max-width:1300px){
@@ -105,10 +110,20 @@ h3{
     }
 
     .header-box{
-        width: 300px;
+        width: 100%;
+    }
+
+    .button{
+        width: 320px;
     }
 
     .desenvolvedor{
         font-size: 14px;
+    }
+}
+
+@media(max-width:340px){
+    .button{
+        width: 100%;
     }
 }
