@@ -96,7 +96,19 @@ h3{
         margin-top: 30%;
     }
 
+    .header-box h3{
+        font-size: 20px;
+    }
+
+    .header-box p{
+        font-size: 17px;
+    }
+
     .header-box{
-        width: 100%;
+        width: 300px;
+    }
+
+    .desenvolvedor{
+        font-size: 14px;
     }
 }
