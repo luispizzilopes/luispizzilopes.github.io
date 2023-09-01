@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;1,9..40,100;1,9..40,200;1,9..40,300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'DM Sans', sans-serif;
+}
+
+body{
+    background-color: #111;
+}
+
+header{
+    background-color: #111;;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    position: sticky;
+    top: 0;
+}
+
+header h1{
+    color: white;
+    margin-right: 15px;
+}
+
+.titulo-header{
+    display: flex;
+    align-items: center;
+}
+
+header nav{
+    width: 30%;
+}
+
+header ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+header a{
+    font-style: none;
+    color: rgba(255, 255, 255, 0.674);
+    font-size: 18px;
+    text-decoration: none;
+}
+
+header ul a:hover{
+    transition: 1s;
+    cursor: pointer;
+    color:white;
+}
+
+.principal{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+
+.descricao{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+}
+
+.descricao h1{
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+.descricao .titulo-roxo{
+    color: #986dff;
+}
+
+.descricao p{
+    font-size: 28px;
+    color: rgba(255, 255, 255, 0.674);
+    margin-bottom: 20px;
+}
+
+.descricao .buttons-descricao button{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #986dff;
+    color: white;
+    font-size: 18px;
+    font-weight: 200;
+    transition: 0.5s;
+}
+
+.descricao .buttons-descricao button:hover{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.minha-foto{
+    width: 400px;
+    border-radius: 400px;
+}
+
+.sobre-mim{
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.box-sobre{
+    display: flex;
+    width: 70%;
+    height: 400px;
+    background-color: #151515;
+    border-radius: 5px;
+    border: 2px solid #1f1f1f;
+    padding: 20px;
+}
+
+.box-sobre .conteudo-imagem{
+    width: 30%;
+    margin-right: 20px;
+}
+
+.box-sobre img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.box-sobre .conteudo-box-sobre{
+    width: 70%;
+}
+
+.box-sobre .conteudo-box-sobre p{
+    margin-top: 15px;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.674);
+}
+
+.icones-redes{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+
+.icone-rede{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #151515;
+    border-radius: 5px;
+    border: 2px solid #1f1f1f;
+    padding: 10px;
+    width: 30px;
+    transition: 1s;
+}
+
+.icone-rede:hover{
+    background-color: #1f1f1f;
+    cursor: pointer;
+}
+
+.ponto-legenda{
+    color: #986dff;
+    margin-left: 5px;
+}
+
+.experiencias{
+    background-color: #151515;
+    margin-top: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.experiencias h1{
+    font-weight: 300;
+    font-size: 30px;
+}
+
+.box-experiencias{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 70%;
+}
+
+.card-experiencia h2{
+    color: #986dff;
+    margin-bottom: 10px;
+}
+
+.card-experiencia span{
+    color: rgba(255, 255, 255, 0.674);
+    font-weight: 200;
+}
+
+.card-experiencia{
+    margin-top: 25px;
+    background-color: #111;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #1f1f1f;
+}
+
+.conhecimentos{
+    background-color: #111;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.conhecimentos h1{
+    font-weight: 300;
+    font-size: 30px;
+}
+
+.box-conhecimento{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 70%;
+}
+
+.cards-conhecimentos{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-conhecimento{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    background-color: #151515;
+    border-radius: 5px;
+    border: 2px solid #1f1f1f;
+    padding: 20px;
+    transition: 0.2s;
+}
+
+.card-conhecimento:hover{
+    box-shadow: 1px 1px 1px 1px #986dff;
+}
+
+.card-conhecimento img{
+    width: 60px;
+}
+
+footer{
+    background-color: #151515;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+footer div img{
+    margin-right: 5px;
+}
+
+@media(max-width:1200px){
+    header nav{
+        width: 50%;
+    }
+}
+
+@media(max-width:1000px){
+    .principal{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+        margin-left: 20px;
+    }
+    
+    .imagem{
+        display: none;
+    }
+
+    #quem-sou{
+        margin-top: 130px;
+    }
+
+    .box-sobre{
+        display: flex;
+        justify-content: center; 
+        height: 100%;
+    }
+
+    .box-sobre .conteudo-box-sobre{
+        width: 100%;
+    }
+    
+    .box-sobre .conteudo-imagem{
+        display: none;
+    }
+
+    .box-experiencias{
+        width: 100%;
+    }
+
+    .card-experiencia{
+        width: 90%;
+    }
+}
+
+@media(max-width: 750px){
+    header{
+        flex-direction: column;
+        align-items: center;
+        height: 100px;
+    }
+
+    header nav{
+        width:90%;
+        justify-content: space-around;
+    }
+}
+
+@media(max-width:550px){
+    .cards-conhecimentos{
+        margin: 0;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-conhecimento{
+        margin-bottom: 10px;
+    }
+
+    .box-conhecimento h1{
+        margin-bottom: 20px;
+    }
+
+    footer div p{
+        font-size: 10px;
+    }
+}
+
+@media(max-width:450px){
+    header a{
+        font-size: 14px;
+    }
+}
