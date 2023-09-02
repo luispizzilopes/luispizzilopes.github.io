@@ -332,6 +332,12 @@ footer div img{
     }
 }
 
+@media(max-width:650px){
+    .descricao h1, .descricao p{
+        width: 350px
+    }
+}
+
 @media(max-width:550px){
     .cards-conhecimentos{
         margin: 0;
@@ -343,8 +349,15 @@ footer div img{
         margin-bottom: 10px;
     }
 
+    .box-conhecimento{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
     .box-conhecimento h1{
         margin-bottom: 20px;
+        font-size: 25px;
     }
 
     footer div p{

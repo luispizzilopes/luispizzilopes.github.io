@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Portifólio</title>
+    <link rel="shortcut icon" href="assets/dev-icon.png" type="image/x-icon">
+    <title>Luis Felipe Pizzi Lopes</title>
   </head>
   <body>
     <div class="container" id="inicio">
@@ -27,8 +28,8 @@
           <h1>Olá, eu sou o <span class="titulo-roxo">Luis Felipe :)</span></h1>
           <p>Desenvolvedor Full-Stack ASP.NET Core e React</p>
           <div class="buttons-descricao">
-            <button>Download CV</button>
-            <button>Entre em contato</button>
+            <button class="download">Download CV</button>
+            <button class="whatsapp">Entre em contato</button>
           </div>
         </div>
         <div class="imagem">
@@ -57,7 +58,7 @@
               mercado.
             </p>
             <nav class="icones-redes">
-              <div class="icone-rede">
+              <div class="icone-rede" id="instagram">
                 <svg
                   width="32"
                   height="32"
@@ -85,7 +86,7 @@
                   ></path>
                 </svg>
               </div>
-              <div class="icone-rede">
+              <div class="icone-rede" id="linkedin">
                 <svg
                   width="32"
                   height="32"
@@ -129,7 +130,7 @@
                   ></path>
                 </svg>
               </div>
-              <div class="icone-rede">
+              <div class="icone-rede" id="github">
                 <svg
                   width="32"
                   height="32"
@@ -277,9 +278,11 @@
       <footer>
         <div>
           <img src="assets/dev-icon.png" alt="Dev icone" width="25px" />
-          <p>Copyright © 2023 luispizzilopes.github.io/portifolio - Todos os direitos reservados. </p>
+          <p>Copyright © 2023 luispizzilopes.github.io - Todos os direitos reservados. </p>
         </div>
       </footer>
     </div>
+
+    <script src="script.js"></script>
   </body>
 </html>
