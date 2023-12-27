@@ -21,5 +21,5 @@ buttonInstagram.addEventListener("click", ()=>{
 });
 
 buttonDownloadCv.addEventListener("click", ()=>{
-    window.open("https://drive.google.com/file/d/1qfZ5RtbR8OE8bOBWv1gyhPE4LwOBCJ9U/view?usp=drive_link"); 
+    window.open("https://drive.google.com/file/d/1w6DJMN2OAXEe6kXH0K56NJgroePV23UT/view?usp=sharing"); 
 }); 
